@@ -1,14 +1,12 @@
 import React from "react";
-import './App.css'
-import MyComponent from './components/index'
-// Initialization for ES Users
+import './App.css';
+import MyComponent from './components/index';
 
 const App = () => {
   return (
     <>
-    <script src="Subscript.js"></script>
-      <MyComponent/>
-
+      <script src="Subscript.js"></script>
+      <MyComponent />
     </>
   );
 }

@@ -19,5 +19,6 @@ export const FontWeight = {
     "Paragraph 2": "Regular",
     "Paragraph 3 Semi Bold": "600" ,
     "Paragraph 4": "400",
+    "Paragraph 5": "500",
 
 }

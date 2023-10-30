@@ -14,12 +14,14 @@ const Card_Container_one = () => {
                     <div className="sub_container_title_one max-lg:flex max-lg:justify-center    ">
                         <Card_Name_link />
                     </div>
-                    <div className="sub_card_container_one inline-flex w-full h-64 max-md:h-full items-end  justify-center max-md:block    ">
+                    <div className="sub_card_container_one inline-flex w-full h-64 max-md:h-full items-end  justify-center max-md:blockd max-md:inline-flex max-md:flex-wrap     ">
                         <CSS_Card />
                         <React_Card />
                         <JS_Card />
                         <Tailwind_Card />
-                        <Vue_Card />
+                        <div className="vue_card max-md:w-full max-sm:w-96  max-md:container   ">
+                            <Vue_Card />
+                        </div>
                     </div>
                 </div>
             </div>

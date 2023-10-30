@@ -38,7 +38,13 @@ module.exports = {
         extend: {
             backgroundImage: {
                 'learn-coding': "url('/public/images/learn-coding.svg')",
+                "whatsapp-icon": "url('/public/images/whatsapp-icon.png')",
+                "email-icon": "url('/public/images/email_icon.png')",
             },
+            lineHeight: {
+                '60': '60px',
+            },
+
             spacing: {
                 '61': '61px',
                 '3/2': '50vw',
@@ -64,6 +70,7 @@ module.exports = {
                 '85': '445px',
                 '87': '385px',
                 '47': '187px',
+                '111': '640px',
             },
             width: {
                 '95': '434.277px',
@@ -74,6 +81,8 @@ module.exports = {
                 '73': '300px',
                 '103': '696px',
                 '107': '960px',
+                '111': '592px',
+                '113': '1024px',
             },
 
             maxWidth: {

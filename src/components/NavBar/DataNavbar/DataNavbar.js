@@ -1,10 +1,14 @@
 import React from "react";
-import NavBar from "../NavBar";
+import Pages_Name from "../Pages_Name";
+import Search_Name from "../Search_Name";
 
 const DataNavbar = () => {
     return (
         <>
-            <NavBar listTitle1="Home" listTitle2="About" listTitle3="Category"/>
+            <Pages_Name listTitle="Home" />
+            <Pages_Name listTitle="About" />
+            <Pages_Name listTitle="Category" />
+            <Search_Name imgNavLink="./images/Icon.svg" searchName="Search" />
         </>
     )
 }

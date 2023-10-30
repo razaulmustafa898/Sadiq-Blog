@@ -13,17 +13,3 @@
   font-family: Plus Jakarta Sans;
   src: url(../src/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf);
 }
-
-@media (min-width: 800px) and (max-width: 1285px) {
-  .custom-media-query {
-    height: 256px;
-    width: 182px;
-  }
-}
-
-@media (min-width: 800px) and (max-width: 1285px) {
-  .custom-media-query:hover {
-    height: 260px;
-    width: 185px;
-  }
-}
