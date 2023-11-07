@@ -1,6 +1,5 @@
 import React from 'react'
 import Content_Paragraph from './Content_Paragraph';
-import RichTextViewer from '../../RichTextViewer/RichTextViewer';
 
 // const lorem_blog = `<!DOCTYPE html>
 // <html>
@@ -40,7 +39,7 @@ import RichTextViewer from '../../RichTextViewer/RichTextViewer';
 const Content_Paragraph1 = () => {
     return (
         <>
-            <RichTextViewer contentParagraph="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non odit nemo eaque praesentium corporis, minima harum dolore aspernatur ea libero porro quae assumenda unde. Animi temporibus id eius optio. Impedit!" />
+            <Content_Paragraph contentParagraph="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non odit nemo eaque praesentium corporis, minima harum dolore aspernatur ea libero porro quae assumenda unde. Animi temporibus id eius optio. Impedit!" />
         </>
     )
 }

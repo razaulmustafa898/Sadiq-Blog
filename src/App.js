@@ -1,13 +1,16 @@
-import React from "react";
+import React from 'react';
 import './App.css';
-import MyComponent from './components/index';
+// import MyComponent from './components';
+import Blog_Editor from './components/Blogs/Blog_Editor/Blog_Editor';
+// const rtfContent = require("./components/Blogs/RichTextViewer/RichText.rtf")
 
-const App = () => {
+function App() {
   return (
     <>
-      <script src="Subscript.js"></script>
-      <MyComponent />
+      {/* <MyComponent /> */}
+      <Blog_Editor />
     </>
   );
 }
+
 export default App;

@@ -4,7 +4,9 @@ import "tw-elements-react/dist/css/tw-elements-react.min.css";
 import App from './App';
 import './index.css';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById('app'));
 root.render(
-    <App />
+    <>
+        <App />
+    </>
 );

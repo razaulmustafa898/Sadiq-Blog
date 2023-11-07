@@ -23,9 +23,6 @@ const MyComponent = () => {
         <Subscribe_Section />
         <Footer /> */}
         <Blog />
-
-
-
       </div>
     </>
   );

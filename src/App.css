@@ -4,12 +4,26 @@
   box-sizing: border-box;
 }
 
-#root {
+html {
   background-color: #EFF0F3;
+
+}
+
+#app {
+  /* background-color: #EFF0F3; */
   font-family: Plus Jakarta Sans;
 }
 
 @font-face {
   font-family: Plus Jakarta Sans;
   src: url(../src/Plus_Jakarta_Sans/PlusJakartaSans-VariableFont_wght.ttf);
+}
+
+.dropdown-content {
+  display: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: white;
 }
