@@ -5,7 +5,7 @@
 }
 
 html {
-  background-color: #EFF0F3;
+  /* background-color: #EFF0F3; */
 
 }
 
@@ -25,5 +25,4 @@ html {
 
 .dropdown:hover .dropdown-content {
   display: block;
-  background-color: white;
 }

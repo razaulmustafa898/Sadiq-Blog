@@ -11,6 +11,9 @@ module.exports = {
             'mu': '280px',
             // => @media (min-width: 280px) { ... }
 
+            'gv': '500px',
+            // => @media (min-width: 500px) { ... }
+
             'sm': '640px',
             // => @media (min-width: 640px) { ... }
 
@@ -40,6 +43,7 @@ module.exports = {
                 'learn-coding': "url('/public/images/learn-coding.svg')",
                 "whatsapp-icon": "url('/public/images/whatsapp-icon.png')",
                 "email-icon": "url('/public/images/email_icon.png')",
+                "signup-login": "url('/public/images/signup-login.png')",
             },
             lineHeight: {
                 '60': '60px',
@@ -65,6 +69,7 @@ module.exports = {
                 '81': '330px',
                 '82': '340px',
                 '83': '370px',
+                '89': '520px',
                 '101': '453px',
                 '79': '337px',
                 '75': '425px',
@@ -72,6 +77,7 @@ module.exports = {
                 '87': '385px',
                 '47': '187px',
                 '111': '640px',
+                '666': '70vh',
             },
             width: {
                 '65': '248.5px',

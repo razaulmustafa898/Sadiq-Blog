@@ -12,7 +12,7 @@ const Blogmail_Heading = () => {
             <div className="blogmail_heading ">
                 <div className="sub_blogmail_heading text-base not-italic leading-6 "
                     style={subSection_Heading}    >
-                    Subscribe to our newsletter
+                    Contributors
                 </div>
             </div>
         </>

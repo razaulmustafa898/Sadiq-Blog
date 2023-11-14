@@ -7,7 +7,7 @@ const Blogmail_Section = () => {
     return (
         <>
             <div
-                className="blogmail_section flex flex-col gap-4 items-start self-stretch mt-10">
+                className="blogmail_section flex flex-col gap-4  max-sm:w-4/5 max-gv:w-11/12 ">
                 <Blogmail_Heading />
                 <Blogmail_Button1 />
             </div>

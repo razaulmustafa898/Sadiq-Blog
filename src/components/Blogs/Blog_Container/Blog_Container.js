@@ -8,8 +8,8 @@ const Blog_Container = () => {
         <>
             <div className="blog_container sm:container  md:mx-auto  flex gap-16 max-sm:flex-col-reverse max-lg:gap-12 max-md:gap-9  pb-24   3xl:max-w-swy ">
                 <Sidebar_Blog />
-                {/* <RichText /> */}
-                <Blog_Content />
+                <RichText />
+                {/* <Blog_Content /> */}
             </div>
         </>
     )
