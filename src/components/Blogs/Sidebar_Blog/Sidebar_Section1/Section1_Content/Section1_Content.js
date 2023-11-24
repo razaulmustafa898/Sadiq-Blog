@@ -1,6 +1,6 @@
 import React from 'react';
-import { FontWeight } from '../../../../constants/Fonts';
-import { Colors } from '../../../../constants/Color';
+import { FontWeight } from '../../../../../constants/Fonts';
+import { Colors } from '../../../../../constants/Color';
 
 const Section1_Content = (props) => {
 

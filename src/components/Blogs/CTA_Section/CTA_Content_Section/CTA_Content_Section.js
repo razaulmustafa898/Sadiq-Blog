@@ -1,5 +1,5 @@
 import React from 'react'
-import { FontWeight } from '../../../constants/Fonts';
+import { FontWeight } from '../../../../constants/Fonts';
 import CTA_Buttons from '../CTA_Buttons/CTA_Buttons';
 
 const CTA_Content_Section = () => {

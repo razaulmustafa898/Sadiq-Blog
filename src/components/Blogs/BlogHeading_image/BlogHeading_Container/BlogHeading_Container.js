@@ -9,12 +9,10 @@ const BlogHeading_Container = () => {
     return (
         <>
             <div className="heading_container inline-flex flex-col gap-7 
-                  justify-center  max-sm:w-full max-sm:px-4      ">
-                {/* <Blog_Badge />
+                  justify-center  max-sm:w-full max-sm:px-4  max-sm:mt-16      ">
+                <Blog_Badge />
                 <Heading />
-                <BlogSubheading_one /> */}
-                <BlogTitle_Input />
-                <DropDown />
+                <BlogSubheading_one />
             </div>
         </>
     )

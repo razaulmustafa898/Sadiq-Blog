@@ -10,8 +10,9 @@ const Blog_InpuBar = ({ labelName, placeholderText, inputID }) => {
                 <input
                     type="text"
                     id={inputID}
-                    className="w-full  p-2 rounded outline outline-2 outline-gray-200 focus:outline-violet-300 "
+                    className="w-full  p-2 rounded outline outline-2 outline-gray-200  "
                     required
+                    
                     placeholder={placeholderText}
                 />
                 {/* <div className={props.PasswordStyle1}>

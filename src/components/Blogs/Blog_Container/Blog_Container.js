@@ -1,15 +1,13 @@
 import React from 'react';
 import Sidebar_Blog from '../Sidebar_Blog/Sidebar_Blog'
-import Blog_Content from '../Blog_Content/Blog_Content';
-import RichText from '../HTMLRichText/RichText';
+import MyText from '../MyText/MyText';
 
 const Blog_Container = () => {
     return (
         <>
-            <div className="blog_container sm:container  md:mx-auto  flex gap-16 max-sm:flex-col-reverse max-lg:gap-12 max-md:gap-9  pb-24   3xl:max-w-swy ">
+            <div className="blog_container sm:container  md:mx-auto  flex gap-16 max-sm:flex-col-reverse max-lg:gap-12 max-md:gap-9  pb-24 3xl:max-w-swy sm:mt-24 ">
                 <Sidebar_Blog />
-                <RichText />
-                {/* <Blog_Content /> */}
+                <MyText />
             </div>
         </>
     )

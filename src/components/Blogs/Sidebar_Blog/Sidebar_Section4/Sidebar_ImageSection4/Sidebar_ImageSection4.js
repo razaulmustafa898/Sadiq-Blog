@@ -4,7 +4,7 @@ const Sidebar_ImageSection4 = (props) => {
     return (
         <>
             <div className="sidebar_imagesection4 flex p-2.5 rounded-lg border-gray-300 border-2">
-                <a href={props.ImageSection4link}>
+                <a href={props.ImageSection4link} target='_blank'>
                     <img src={props.ImageSection4}  className=' w-5 h-5'/>
                 </a>
             </div>

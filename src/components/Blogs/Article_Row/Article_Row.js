@@ -1,5 +1,5 @@
 import React from 'react';
-import { Colors } from '../../constants/Color';
+import { Colors } from '../../../constants/Color';
 
 const Article_Row = () => {
 

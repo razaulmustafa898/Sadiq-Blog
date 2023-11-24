@@ -4,7 +4,7 @@ import Footer_Column2 from './Footer_Columns/Footer_Column2/Footer_Column2';
 import Footer_Column3 from './Footer_Columns/Footer_Column3/Footer_Column3';
 import Footer_Column4 from './Footer_Columns/Footer_Column4/Footer_Column4';
 import Footer_Column5 from './Footer_Columns/Footer_Column5/Footer_Column5';
-import { Colors } from '../constants/Color';
+import { Colors } from '../../constants/Color';
 import Footer_Row1 from './Footer_Row1/Footer_Row1';
 
 const Footer = () => {

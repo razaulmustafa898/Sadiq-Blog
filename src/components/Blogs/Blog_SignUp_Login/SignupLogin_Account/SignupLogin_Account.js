@@ -1,11 +1,12 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
-const SignupLogin_Account = ({ Signup_login_account1, Signup_login_account2 }) => {
+const SignupLogin_Account = ({ Signup_login_account1, Signup_login_account2, signuplogin_routing, color }) => {
     return (
         <>
             <div className=" flex  justify-center gap-1 max-md:gap-0.5 text-sm">
                 <div>{Signup_login_account1}</div>
-                <a href='#login' className=" font-semibold text-violet-500 hover:text-violet-700">{Signup_login_account2}</a>
+                <Link to={signuplogin_routing} className=" font-semibold " style={color}>{Signup_login_account2}</Link>
             </div>
         </>
     )

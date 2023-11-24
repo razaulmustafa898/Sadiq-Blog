@@ -1,5 +1,5 @@
 import React from 'react'
-import { FontWeight } from '../../../constants/Fonts';
+import { FontWeight } from '../../../../constants/Fonts';
 
 const Title_Subscribe = () => {
 

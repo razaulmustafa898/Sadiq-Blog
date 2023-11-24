@@ -1,8 +1,8 @@
 import React from 'react';
 import Footer_All_Images from './Footer_All_Images';
 import Footer_Column1_Images from './Footer_Column1_Images';
-import { Colors } from '../../constants/Color';
-import { FontWeight } from '../../constants/Fonts';
+import { Colors } from '../../../constants/Color';
+import { FontWeight } from '../../../constants/Fonts';
 
 const Footer_Column1 = () => {
 
@@ -19,7 +19,7 @@ const Footer_Column1 = () => {
                         <div className="logo_blog text-lg leading-normal not-italic mt-3 " style={blogStyle}>
                             blog.
                         </div>
-                        <img src='./images/logo.svg' className=" h-10 mb-2" />
+                        <img src='../../../../images/logo.svg' className=" h-10 mb-2" />
                     </a>
                 </div>
                 <div className="footer_para1">Blog by Sadiq.ai</div>

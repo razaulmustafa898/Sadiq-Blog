@@ -1,5 +1,5 @@
 import React from 'react'
-import { Colors } from '../../../../constants/Color';
+import { Colors } from '../../../../../constants/Color';
 import Content_Heading4 from '../../Content_Heading/Content_Heading4';
 import Content_Paragraph8 from '../Content_Paragraph8';
 

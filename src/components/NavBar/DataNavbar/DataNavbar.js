@@ -5,10 +5,10 @@ import Search_Name from "../Search_Name";
 const DataNavbar = () => {
     return (
         <>
-            <Pages_Name listTitle="Home" />
-            <Pages_Name listTitle="About" />
-            <Pages_Name listTitle="Category" />
-            <Search_Name imgNavLink="./images/Icon.svg" searchName="Search" />
+            <Pages_Name listTitle="Home" pageLink="/home" />
+            <Pages_Name listTitle="About" pageLink="/about"/>
+            <Pages_Name listTitle="Category" pageLink="/category"/>
+            <Search_Name imgNavLink="../../../../images/Icon.svg" searchName="Search" />
         </>
     )
 }

@@ -1,6 +1,6 @@
 import React from 'react';
-import { Colors } from '../../constants/Color';
-import { FontsSize } from '../../constants/Fonts';
+import { Colors } from '../../../constants/Color';
+import { FontsSize } from '../../../constants/Fonts';
 
 const Footer_Row1 = () => {
 

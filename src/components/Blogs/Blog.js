@@ -7,21 +7,22 @@ import Article_Row from './Article_Row/Article_Row';
 import CTA_Section from './CTA_Section/CTA_Section';
 import Subscribe_Section from '../Subscribe_Section/Subscribe_Section';
 import Footer from '../Footer/Footer';
-
 import '../../App.css'
 
 const Blog = () => {
     return (
         <>
-            <NavBar />
-            <BlogHeading_image />
-            <Blog_Container />
-            <Article_Row />
-            <ArticleBlog_Section />
-            <Article_Row />
-            <CTA_Section />
-            <Subscribe_Section />
-            <Footer />
+            <div >
+                <NavBar />
+                <BlogHeading_image />
+                <Blog_Container />
+                <Article_Row />
+                <ArticleBlog_Section />
+                <Article_Row />
+                <CTA_Section />
+                <Subscribe_Section />
+                <Footer />
+            </div>
         </>
     )
 }
