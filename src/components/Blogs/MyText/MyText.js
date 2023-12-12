@@ -9,7 +9,7 @@ const htmlContent = `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <p>Mi tincidunt elit, id quisque ligula ac diam, amet. Vel etiam suspendisse morbi eleifend faucibus eget vestibulum felis. Dictum quis montes, sit sit. Tellus aliquam enim urna, etiam. Mauris posuere vulputate arcu amet, vitae nisi, tellus tincidunt. At feugiat sapien varius id.</p>
 <p><br>Eget quis mi enim, leo lacinia pharetra, semper. Eget in volutpat mollis at volutpat lectus velit, sed auctor. Porttitor fames arcu quis fusce augue enim. Quis at habitant diam at. Suscipit tristique risus, at donec. In turpis vel et quam imperdiet. Ipsum molestie aliquet sodales id est ac volutpat.</p>
 <p><br></p>
-<p><img src="https://s3-alpha-sig.figma.com/img/a7d0/c811/28f5e792cf6d43fe7c71c5a8ae0eef43?Expires=1701043200&amp;Signature=Pa4vu39V4PHUeFI6IZG9FEbzTK42S6ehYtPnf0b7YyD8n1iSDU5hjJCCxKBKiymO7fHGGE~aikLBBDQRdBwIahGE8~h2nxqhv4y6tvRIB4pOFjoOpmEYAoPrpkES277gfEypfIhf6TwyJk8yvGn2Gehibydw9SxKRK3J4DMjiPcxUTuf2tkK0bgxfZKqo2AuRZbj2eznJC9W2lHwqU1V3Sok9Bw7c379TxaWhQdJT4KvjiHFXKD2ga01h8eloScEoh7ts-whIOXMTCBhsO2xgvMEa~3DNP8ETz5a5yYB42-JDbwOiK29N86J-yLtkuub8-ffkeq7gzlrdYQmwcYdfQ__&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" width="546px" height="364px" style="border-radius: 12px; width: 546px; height: 364px; display: block; margin-left: auto; margin-right: auto;"></p>
+<p><img src="https://s3-alpha-sig.figma.com/img/a7d0/c811/28f5e792cf6d43fe7c71c5a8ae0eef43?Expires=1701043200&amp;Signature=Pa4vu39V4PHUeFI6IZG9FEbzTK42S6ehYtPnf0b7YyD8n1iSDU5hjJCCxKBKiymO7fHGGE~aikLBBDQRdBwIahGE8~h2nxqhv4y6tvRIB4pOFjoOpmEYAoPrpkES277gfEypfIhf6TwyJk8yvGn2Gehibydw9SxKRK3J4DMjiPcxUTuf2tkK0bgxfZKqo2AuRZbj2eznJC9W2lHwqU1V3Sok9Bw7c379TxaWhQdJT4KvjiHFXKD2ga01h8eloScEoh7ts-whIOXMTCBhsO2xgvMEa~3DNP8ETz5a5yYB42-JDbwOiK29N86J-yLtkuub8-ffkeq7gzlrdYQmwcYdfQ__&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" width="546px" height="364px" style="border-radius: 12px; width: 546px; height: 364px; display: block; margin-left: auto; margin-right: auto; object-fit: cover; object-position: center;"></p>
 <p><br></p>
 <p><span style="white-space:pre-wrap;">Image courtesy of Vlada Karpovich via <u>Pexels</u></span><br></p>
 <p><br></p>
@@ -48,7 +48,7 @@ const htmlContent = `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 </ol>
 <p><br></p>
 <p><br></p>
-<p><img src="https://s3-alpha-sig.figma.com/img/6a65/5d9b/7135d1349b49a305fa7933324564541b?Expires=1701043200&amp;Signature=ipXPBXS0MmpzP1F0AcCUElsW3z~BwscI5p5PmO9anAoa-18bYx0bGCfKs8l1UYGUPoFvXh5OjxGvxi-sFhihmlYEOV3MUMp933lO1F4dTTF-Ey7rxd~JGlgAxombqD6jidMH0sogFqzZkbx~OzKw42QmE30cgBqeWobxvJgXlLZe~MkyxPefvoqu2ipKLVi1uqMLBpWgCN1~054~-ggl0Cj40~u0Eow30tdfpVTghf21dTKr8gCaUxp6Ewvn1qV-jce2geUWcYEn1D8P1qWMj9eMbnj3KmcTydpdN3Gbc02zTyil3CdUAMWFQ7FnWo-AF5BHNCSrX5~btNaFOQyZgQ__&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" width="546px" height="748px" style="border-radius: 12px; width: 546px; height: 748px; display: block; margin-left: auto; margin-right: auto;"></p>
+<p><img src="https://s3-alpha-sig.figma.com/img/6a65/5d9b/7135d1349b49a305fa7933324564541b?Expires=1701043200&amp;Signature=ipXPBXS0MmpzP1F0AcCUElsW3z~BwscI5p5PmO9anAoa-18bYx0bGCfKs8l1UYGUPoFvXh5OjxGvxi-sFhihmlYEOV3MUMp933lO1F4dTTF-Ey7rxd~JGlgAxombqD6jidMH0sogFqzZkbx~OzKw42QmE30cgBqeWobxvJgXlLZe~MkyxPefvoqu2ipKLVi1uqMLBpWgCN1~054~-ggl0Cj40~u0Eow30tdfpVTghf21dTKr8gCaUxp6Ewvn1qV-jce2geUWcYEn1D8P1qWMj9eMbnj3KmcTydpdN3Gbc02zTyil3CdUAMWFQ7FnWo-AF5BHNCSrX5~btNaFOQyZgQ__&amp;Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4" width="546px" height="748px" style="border-radius: 12px; width: 546px; height: 748px; display: block; margin-left: auto; margin-right: auto; object-fit: cover; object-position: center;"></p>
 <p><br></p>
 <p>Image courtesy of Jasmin Chew via <a href="https://www.pexels.com/photo/slim-woman-with-vintage-photo-camera-on-chair-6121448/"><u>Pexels</u></a></p>
 <p><br></p>
@@ -66,7 +66,7 @@ const htmlContent = `<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 const MyText = () => {
   return (
     <>
-      <div class="rich_text_html flex flex-col items-start  gap-5 max-md:px-4 max-sm:mt-16 ">
+      <div className="flex flex-col items-start  gap-5 max-md:px-4 max-sm:mt-16 ">
         <div dangerouslySetInnerHTML={{ __html: htmlContent }} />
       </div>
     </>

@@ -21,8 +21,8 @@ const Button_1 = ({ buttonName, buttonLink, buttonsStyling }) => {
             style={ButtonStyle}
             className={
               buttonsStyling
-                ? `nav_button flex  justify-center rounded py-2.5 items-center text-lg max-md:text-base `
-                : `${`flex  justify-center rounded py-2.5 items-center text-lg max-lg:text-base max-md:text-sm px-3`}`
+                ? `nav_button flex  justify-center rounded py-2.5 items-center text-lg max-md:text-base select-none `
+                : `${`flex  justify-center rounded py-2.5 items-center text-lg max-lg:text-base max-md:text-sm px-3 select-none`}`
             }
           >
             {buttonName}

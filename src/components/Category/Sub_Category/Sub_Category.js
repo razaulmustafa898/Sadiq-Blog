@@ -28,7 +28,7 @@ const Sub_Category = () => {
                 {BlogSummary.filter((blog) => blog.category_id === id).map(
                   (blogcategory) => (
                     <Article_Card_1_1
-                      key={blogcategory.id}
+                      key={blogcategory.key}
                       id={blogcategory.id}
                       name={blogcategory.name}
                       image={blogcategory.image}

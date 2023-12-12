@@ -27,15 +27,18 @@ const Blog_Editor = () => {
               type="text"
               placeholder="Enter Here"
               className="border border-gray-300  p-2 outline-blue-300 placeholder:select-none"
+              name="title"
+              id="title"
             />
           </div>
-          <div className=" flex flex-col">
+          <div className="flex flex-col">
             <BlogPost_Title2 />
             <JoditEditor
               ref={editor}
               value={content}
               onChange={(newContent) => setContent(newContent)}
               style={{ backgroundColor: "red" }}
+              // id="title"
             />
           </div>
           <div className=" flex flex-col">

@@ -3,7 +3,7 @@ import All_Blog_Cards from "./All_Blog_Cards/All_Blog_Cards";
 import NavBar from "../NavBar/NavBar";
 import Footer from "../Footer/Footer";
 import Subscribe_Section from "../Subscribe_Section/Subscribe_Section";
-import Category_Heading from "./Category_Heading/Category_Heading";
+import Category_Title from "./Category_Heading/Category_Title";
 
 const Category = () => {
   return (
@@ -11,7 +11,7 @@ const Category = () => {
       <div className="category">
         <div className="sub_category">
           <NavBar />
-          <Category_Heading />
+          <Category_Title />
           <All_Blog_Cards />
           <Subscribe_Section />
           <Footer />

@@ -1,11 +1,13 @@
 import React from "react";
 import "./App.css";
-import MyComponent from "./components";
+import Index from "./components/index";
 
 const App = () => {
   return (
     <>
-      <MyComponent />
+      <div className="overflow-hidden">
+        <Index />
+      </div>
     </>
   );
 };

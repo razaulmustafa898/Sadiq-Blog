@@ -9,7 +9,7 @@ const Article_Blog_Card1 = () => {
         <div className="article_blog_1 flex justify-center items-center  mb-20 2xl:container 2xl:mx-auto max-xl:flex-wrap max-md:grid  flex-wrap   ">
           {BlogSummary.map((blogcategory) => (
             <Article_Card_1_1
-              key={blogcategory.id}
+              key={blogcategory.key}
               id={blogcategory.id}
               name={blogcategory.name}
               image={blogcategory.image}

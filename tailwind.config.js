@@ -41,6 +41,7 @@ module.exports = {
         "signup-login": "url('/public/images/signup-login.png')",
         "blog-banner": "url('/public/images/blog_banner_img.png')",
       },
+
       lineHeight: {
         60: "60px",
       },
@@ -103,6 +104,7 @@ module.exports = {
         ry: "10px",
         st: "7px",
         mn: "0.780rem",
+        xll: "65px",
       },
       container: {
         center: true,

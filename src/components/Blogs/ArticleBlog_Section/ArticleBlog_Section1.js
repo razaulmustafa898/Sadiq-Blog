@@ -5,15 +5,15 @@ import Article_Card_1_1 from "../../Article-Card/Article_Card_1/Article-Card-1_1
 const ArticleBlog_Section1 = () => {
   return (
     <>
-    <div className=" flex">
-      {BlogSummary.slice(0, 3).map((blogcategory) => (
-        <Article_Card_1_1
-          key={blogcategory.id}
-          id={blogcategory.id}
-          name={blogcategory.name}
-          image={blogcategory.image}
-        />
-      ))}
+      <div className=" flex max-lg:flex-col justify-center items-center ">
+        {BlogSummary.slice(0, 3).map((blogcategory) => (
+          <Article_Card_1_1
+            key={blogcategory.key}
+            id={blogcategory.id}
+            name={blogcategory.name}
+            image={blogcategory.image}
+          />
+        ))}
       </div>
     </>
   );
